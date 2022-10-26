@@ -1,0 +1,23 @@
+<!-- Created by Alexandre C. Gerona -->
+
+
+<mat-vertical-stepper #stepper>
+  <mat-step label="Step 1">
+    Step 1
+    </mat-step>
+  <mat-step label="Step 2">
+    Step 2
+  </mat-step>
+  <mat-step label="Step 3">
+    Step 3
+  </mat-step>
+  <mat-step label="Step 4">
+    Step 4
+    </mat-step>
+</mat-vertical-stepper>
+<div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="6px">
+  <button mat-raised-button color="accent" (click)="move(0)">1st</button>
+  <button mat-raised-button color="accent" (click)="move(1)">2nd</button>
+  <button mat-raised-button color="accent" (click)="move(2)">3rd</button>
+  <button mat-raised-button color="accent" (click)="move(3)">4th</button>
+</div>
